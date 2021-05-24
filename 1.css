@@ -36,7 +36,9 @@
 	bottom: 120px;
 	z-index: 999999999;
 }
-
+#aplayer {
+    bottom: 120px;
+}
 body:before {
 	content: "";
 	position: fixed;
