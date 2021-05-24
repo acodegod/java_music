@@ -30,7 +30,7 @@
     background-color: rgba(255, 255, 255, .25);
     box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
 }
-/* #aplayer{
-	position: fixed;
-	bottom: 0;
-} */
+.aplayer.aplayer-fixed .aplayer-body {
+	bottom: 120px;
+	z-index: 999999999;
+}
