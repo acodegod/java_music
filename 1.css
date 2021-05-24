@@ -1,36 +1,50 @@
 .shuru {
-    position: absolute;
-    top: 200px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 500px;
-    max-width: 80%;
-    outline: none;
-    border: none;
-    padding: 13px 15px;
-    border-radius: 30px;
-    font-size: small;
-    text-align: center;
-    background-color: rgba(255, 255, 255, .25);
-    box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 500px;
+	max-width: 80%;
+	outline: none;
+	border: none;
+	padding: 13px 15px;
+	border-radius: 30px;
+	font-size: small;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .25);
+	box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
 }
+
 .tijiao {
-    position: absolute;
-    top: 250px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    max-width: 80%;
-    outline: none;
-    border: none;
-    padding: 13px 15px;
-    border-radius: 30px;
-    font-size: small;
-    text-align: center;
-    background-color: rgba(255, 255, 255, .25);
-    box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+	max-width: 80%;
+	outline: none;
+	border: none;
+	padding: 13px 15px;
+	border-radius: 30px;
+	font-size: small;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .25);
+	box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
 }
+
 .aplayer.aplayer-fixed .aplayer-body {
 	bottom: 120px;
 	z-index: 999999999;
+}
+
+body:before {
+	content: "";
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url(https://cdn.jsdelivr.net/gh/acodegod/pic-cdn@357477f6be523b3e47903acbd78bbc5761176d90/2021/05/24/e18fc6dc66b70bbe4b1638e2150e9b1c.png) center 0 no-repeat;
+	background-size: cover;
 }
